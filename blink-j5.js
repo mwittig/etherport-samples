@@ -10,3 +10,11 @@ board.on("ready", function() {
     var led = new five.Led(13);
     led.blink();
 });
+
+board.on("error", function(error) {
+    console.log("error", error);
+});
+
+board.on("close", function() {
+    console.log("board closed");
+});

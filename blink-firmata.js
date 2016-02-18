@@ -16,3 +16,7 @@ board.on("ready", function() {
 board.on("error", function(error) {
     console.log("error", error);
 });
+
+board.on("close", function() {
+    console.log("board closed");
+});
