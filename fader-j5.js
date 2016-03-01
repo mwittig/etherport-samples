@@ -8,7 +8,7 @@ var flagA = 1;
 
 board.on("ready", function () {
     console.log('ready');
-    var ledGreen = new five.Led(45);
+    var ledGreen = new five.Led(12
 
     function fade() {
         if (flagA == 1) {
